@@ -6,7 +6,7 @@
 #include "deviceconfig.h"
 #include "global.h"
 
-#define PINS_COUNT 30
+#define PINS_COUNT 32
 #define PIN_TYPE_COUNT 32
 enum // разделить и вынести отдельно?                 // все структуры в global.h?
 {
@@ -137,6 +137,8 @@ private:
         {PC_13, {"C13"},   {tr("Pin C13")},    {}},
         {PC_14, {"C14"},   {tr("Pin C14")},    {}},
         {PC_15, {"C15"},   {tr("Pin C15")},    {}},
+        {PC_4, {"C4"}, {tr("Pin C4")}, {}}, // STM32F103RCT6 extra GPIO
+        {PC_5, {"C5"}, {tr("Pin C5")}, {}}, // STM32F103RCT6 extra GPIO
     };
 
     const cBox m_pinTypes[PIN_TYPE_COUNT] = // static ?

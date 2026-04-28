@@ -97,6 +97,8 @@ dev_config_t InitConfig (void)
             .pins[27] = NOT_USED,							// PC13
             .pins[28] = NOT_USED,							// PC14
             .pins[29] = NOT_USED,							// PC15
+            .pins[30] = NOT_USED, // PC4 (STM32F103RCT6)
+            .pins[31] = NOT_USED, // PC5 (STM32F103RCT6)
 
             /*
         Configuration of analog axis
