@@ -65,6 +65,8 @@ void ConfigToFile::loadDeviceConfigFromFile(QWidget *parent, const QString &file
     devC.pins[27] = int8_t(deviceSettings.value("C13", devC.pins[27]).toInt());
     devC.pins[28] = int8_t(deviceSettings.value("C14", devC.pins[28]).toInt());
     devC.pins[29] = int8_t(deviceSettings.value("C15", devC.pins[29]).toInt());
+    devC.pins[30] = int8_t(deviceSettings.value("C4", devC.pins[30]).toInt()); // STM32F103RCT6 extra GPIO
+    devC.pins[31] = int8_t(deviceSettings.value("C5", devC.pins[31]).toInt()); // STM32F103RCT6 extra GPIO
     deviceSettings.endGroup();
 
     // load Shift config from file
@@ -301,6 +303,8 @@ void ConfigToFile::saveDeviceConfigToFile(const QString &fileName, dev_config_t 
     deviceSettings.setValue("C13", devC.pins[27]);
     deviceSettings.setValue("C14", devC.pins[28]);
     deviceSettings.setValue("C15", devC.pins[29]);
+    deviceSettings.setValue("C4", devC.pins[30]); // STM32F103RCT6 extra GPIO
+    deviceSettings.setValue("C5", devC.pins[31]); // STM32F103RCT6 extra GPIO
     deviceSettings.endGroup();
 
     // save Shift config to file

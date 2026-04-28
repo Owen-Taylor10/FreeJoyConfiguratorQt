@@ -75,6 +75,8 @@ enum Pin {
     PC_13,
     PC_14,
     PC_15,
+    PC_4, // STM32F103RCT6 extra GPIO
+    PC_5, // STM32F103RCT6 extra GPIO
 };
 
 #endif // GLOBAL_H

@@ -101,6 +101,8 @@ private:
         C13,
         C14,
         C15,
+        C4,
+        C5,
     };
 
 
@@ -139,6 +141,8 @@ private:
         {C13,      "C13"},
         {C14,      "C14"},
         {C15,      "C15"},
+        {C4,      "C4"},
+        {C5,      "C5"},
     }};
 
     const QVector <deviceEnum_guiName_t> m_axisSourceMain =      // порядов обязан быть как в common_types.h!!!!!!!!!!!

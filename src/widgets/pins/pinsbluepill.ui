@@ -832,6 +832,40 @@ color: rgb(0, 0, 0);</string>
        </property>
       </widget>
      </item>
+     <item row="20" column="0">
+      <widget class="QLabel" name="text_C4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(173, 216, 230, 170);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string notr="true">C4</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="0">
+      <widget class="QLabel" name="text_C5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(173, 216, 230, 170);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string notr="true">C5</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
+       </property>
+      </widget>
+     </item>
      <item row="13" column="0">
       <widget class="QLabel" name="text_A2">
        <property name="styleSheet">

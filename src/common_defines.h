@@ -12,7 +12,7 @@
 //#define DEBUG
 
 #define FIRMWARE_VERSION					0x1730			// v1.7.3b0
-#define USED_PINS_NUM							30					// constant for BluePill and BlackPill boards
+#define USED_PINS_NUM							32					// 30 base pins + PC4/PC5 for STM32F103RCT6 support
 #define MAX_AXIS_NUM							8						// max 8
 #define MAX_BUTTONS_NUM						128					// power of 2, max 128
 #define MAX_POVS_NUM							4						// max 4
